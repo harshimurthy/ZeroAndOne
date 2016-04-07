@@ -46,3 +46,24 @@ round(totalCost)=15
 
 The total meal cost is 15 dollars.
 
+#Day 4: Conditional(if-else)
+
+##Task
+Given an integer, nn, perform the following conditional actions:
+
+    If nn is odd, print WeirdWeird.
+    If nn is even and in the inclusive range of 22 to 55, print Not WeirdNot Weird.
+    If nn is even and in the inclusive range of 66 to 2020, print WeirdWeird.
+    If nn is even and greater than 2020, print Not WeirdNot Weird.
+
+##Sample Input 0
+3
+
+##Sample Output 0
+Weird
+
+##Sample Input 1
+24
+
+##Sample Output 1
+Not Weird
