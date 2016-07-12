@@ -1,3 +1,11 @@
+# Java Programming
+
+## Running java using command line
+> + Create a file_name.java 
+> + write your programming in it
+> + Make class_name and file_name are the same
+> + In terminal: Type javac file_name.java #This will show if you have made any errors
+> + java file_name will show you the output
 
 #Day 1: Hello World
 ##Input Format
