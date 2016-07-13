@@ -60,5 +60,6 @@ Print Weird if the number is weird; otherwise, print Not Weird.
 Notice the weird behavior in the comments in the program
 
 --
+## 6. Formatting the output using System.out.printf- Formatting
 
-
+http://alvinalexander.com/programming/printf-format-cheat-sheet
