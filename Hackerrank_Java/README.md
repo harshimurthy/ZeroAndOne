@@ -63,3 +63,11 @@ Notice the weird behavior in the comments in the program
 ## 6. Formatting the output using System.out.printf- Formatting
 
 http://alvinalexander.com/programming/printf-format-cheat-sheet
+
+--
+##String reverse
+
+Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        /* Enter your code here. Print output to STDOUT. */
+        String reverse = new StringBuffer(A).reverse().toString();
