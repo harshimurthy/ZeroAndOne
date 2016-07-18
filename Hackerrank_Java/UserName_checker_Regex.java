@@ -23,6 +23,7 @@ public class UserName_checker_Regex
 			System.out.println("\n Enter test case number:"+ N);
 			str = scan.nextLine();
 			Matcher match = pattern.matcher(str);
+			//System.out.println("\n match is: " + match + " Match.find is: " + match.find());
 			if (match.find())
 				System.out.println(" \n Valid Username");
 			else
