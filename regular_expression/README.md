@@ -23,3 +23,17 @@
 	+ [^you] will match any character which is not y or o or u
 + - inside [] represents range
 	+ [A-Za-z] matches any upper case/ lower case character
+
+
++ {x} matches the character it follows x times
+	+ [a-z]{4} matches for 4 lower case letters
++ {x,y} matches between x and y{both inclusive} repetitions of characters
+	+ w{2,4} will match ww, www, wwww
+	+ [xyz][5,] will match x,y,z 5 or more times
++ * matches 0/more repetitions of character(s)
+	+ w* matches character w 0/more times
+	+ [xyz]* matches character x,y,z 0/more times.
++ + matches 1/more repetitions of character(s)
+	+ w+ matches w 1 or more times
+	+ [abc]+ will match a,b,c 1 or more times
++ $ matches character(s) at the end of line
